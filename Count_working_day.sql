@@ -59,3 +59,7 @@ SELECT dbo.fn_LateFeeAccrual
     @ToDate          = '2025-08-13',   -- ngày kết thúc tính phí
     @UseBusinessDays = 1               -- 1 = chỉ tính ngày làm việc, 0 = tính cả ngày thường
 ) AS LateFee;
+
+
+
+
